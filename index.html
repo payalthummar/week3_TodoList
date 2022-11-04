@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <a class="navbar-brand" href="#">
+            <img src="todo.png" width="50" height="50" alt="">
+        </a>
+        <h1 class="text-center text-white">To-Do List App</h1>
+    </nav>
+
+
+    <div class="bla mb-4" id="blaa">
+        <div class="mb-4">
+            <div class="flex mt-4">
+                <input name="text" id="text" placeholder="Add Todo" />
+                <input type="hidden" id="saveIndex" />
+                <button id="add-task-btn">Add</button>
+                <button style="display: none" id="save-todo-btn">Edit Todo</button>
+            </div>
+        </div>
+        <div id="listBox"></div>
+    </div>
+
+
+
+</body>
+
+</html>

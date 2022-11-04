@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+#blaa {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    background-color: #f2f2f2;
+}
+
+#listBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #171a17;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+input,
+p {
+    background-color: #e4e1e1;
+    border: 1px solid black;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+p {
+    margin-top: 5px;
+}
